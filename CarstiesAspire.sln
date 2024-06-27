@@ -4,11 +4,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarstiesAspire.AppHost", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarstiesAspire.ServiceDefaults", "CarstiesAspire\CarstiesAspire.ServiceDefaults\CarstiesAspire.ServiceDefaults.csproj", "{3B96E6FE-BC33-4121-9EA4-AD16B4859FCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarstiesAspire.ApiService", "CarstiesAspire\CarstiesAspire.ApiService\CarstiesAspire.ApiService.csproj", "{58BECA2B-815D-4E4A-8D2F-D09A971B41F4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarstiesAspire.Web", "CarstiesAspire\CarstiesAspire.Web\CarstiesAspire.Web.csproj", "{DE1D0A1D-83F2-4BEB-A29A-DFA752832483}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarstiesAspire.Tests", "CarstiesAspire\CarstiesAspire.Tests\CarstiesAspire.Tests.csproj", "{522A98DA-6731-4678-9D35-6367133007D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "CarstiesAspire\src\AuctionService\AuctionService.csproj", "{5335C4CF-6CBE-4DC0-9D2F-EE576A9E3769}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,17 +22,13 @@ Global
 		{3B96E6FE-BC33-4121-9EA4-AD16B4859FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B96E6FE-BC33-4121-9EA4-AD16B4859FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B96E6FE-BC33-4121-9EA4-AD16B4859FCB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{58BECA2B-815D-4E4A-8D2F-D09A971B41F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{58BECA2B-815D-4E4A-8D2F-D09A971B41F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{58BECA2B-815D-4E4A-8D2F-D09A971B41F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{58BECA2B-815D-4E4A-8D2F-D09A971B41F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DE1D0A1D-83F2-4BEB-A29A-DFA752832483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE1D0A1D-83F2-4BEB-A29A-DFA752832483}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE1D0A1D-83F2-4BEB-A29A-DFA752832483}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE1D0A1D-83F2-4BEB-A29A-DFA752832483}.Release|Any CPU.Build.0 = Release|Any CPU
 		{522A98DA-6731-4678-9D35-6367133007D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{522A98DA-6731-4678-9D35-6367133007D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{522A98DA-6731-4678-9D35-6367133007D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{522A98DA-6731-4678-9D35-6367133007D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5335C4CF-6CBE-4DC0-9D2F-EE576A9E3769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5335C4CF-6CBE-4DC0-9D2F-EE576A9E3769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5335C4CF-6CBE-4DC0-9D2F-EE576A9E3769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5335C4CF-6CBE-4DC0-9D2F-EE576A9E3769}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

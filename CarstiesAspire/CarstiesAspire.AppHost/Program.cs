@@ -1,9 +1,10 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-var apiService = builder.AddProject<Projects.CarstiesAspire_ApiService>("apiservice");
+var postgres = builder.AddPostgres("postgres").WithPgAdmin();
 
-builder.AddProject<Projects.CarstiesAspire_Web>("webfrontend")
-    .WithExternalHttpEndpoints()
-    .WithReference(apiService);
+var db = postgres.AddDatabase("auctions");
+
+builder.AddProject<Projects.AuctionService>("auctionservice")
+    .WithReference(db);
 
 builder.Build().Run();

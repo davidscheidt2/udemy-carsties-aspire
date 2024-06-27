@@ -10,12 +10,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\CarstiesAspire.ApiService\CarstiesAspire.ApiService.csproj"/>
-        <ProjectReference Include="..\CarstiesAspire.Web\CarstiesAspire.Web.csproj"/>
+        <ProjectReference Include="..\src\AuctionService\AuctionService.csproj" />
     </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.1"/>
+        <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="8.0.1" />
     </ItemGroup>
 
 </Project>
